@@ -91,7 +91,7 @@ int main() {
 
     cout << "Array: " << endl;
 
-    for (int i = 0; i < num; i++) {
+    for (int i = num-1; i >= 0; i--) {
         cout << array[i] << " ";
     }
 
